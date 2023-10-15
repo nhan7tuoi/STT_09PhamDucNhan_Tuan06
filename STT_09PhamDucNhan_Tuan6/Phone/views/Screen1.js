@@ -15,7 +15,7 @@ export default function App({ navigation, route }) {
 
 
     useEffect(() => {
-        if (img !== undefined && img !== 'vs_blue.png') {
+        if (img !== undefined ) {
             setUrlImg(img);
             setPricePhone(price);
             setColor(mau);
